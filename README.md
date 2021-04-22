@@ -1,24 +1,16 @@
 # eams-ui
 
-## Project setup
-```
-yarn install
-```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+- 本项目仅作为vue组件封装的练习参考
 
-### Compiles and minifies for production
-```
-yarn build
-```
+- 初始化vue项目
+    vue created demo
 
-### Lints and fixes files
-```
-yarn lint
-```
+- 安装组件库
+    npm add eams-m-ui
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- 全局导入
+    import EAMSUI form 'eams-ui'
+
+
+    Vue.use(EAMSUI)
